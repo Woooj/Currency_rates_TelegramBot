@@ -1,0 +1,6 @@
+#Intellij Idea
+/.idea/
+#Unneccessary xml file
+/rates.xml
+#Folders
+target

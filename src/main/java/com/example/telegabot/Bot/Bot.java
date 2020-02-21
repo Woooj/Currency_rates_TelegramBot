@@ -1,6 +1,7 @@
 package com.example.telegabot.Bot;
 
 import com.example.telegabot.XMLParser.SaxXMLParser;
+import org.telegram.telegrambots.bots.DefaultBotOptions;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -15,7 +16,7 @@ import java.util.ArrayList;
 
 public class Bot extends TelegramLongPollingBot {
 
-    private static final String botName = "@adalfirst_bot";
+    private static final String botName = "adalfirst_bot";
     private static final String botToken = "1053480343:AAEZspbwhWy7kgJJrpMO6kzeDUQW3vrl5SA";
 
     ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
